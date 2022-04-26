@@ -1,12 +1,10 @@
-
-
 body {
     background-color: black;
     color: white;
 }
 
 .msjWelcome{
-    font-size: 45px;
+    font-size: 30px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
 }
@@ -16,3 +14,4 @@ body {
     color: yellow;
 
 }
+

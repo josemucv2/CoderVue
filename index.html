@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
-    <script defer src="/App.js"></script>
-    <link rel="stylesheet" href="App.css">
-    <title>Vue.js CoderHouse</title>
-</head>
-<body>
-    <div id="App" class="msjWelcome">
-        <div class="internalmsj">{{ message }}</div>
-        <hr>
-        <div>{{ numeroA }} + {{ numeroB }} = {{ calculoMatematico() }}</div>
-        <hr>
-        <div>Usando Propiedad Computada: {{ duplicar }}</div>
-    </div>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+        <script defer src="/App.js"></script>
+        <link rel="stylesheet" href="App.css">
+        <title>Vue.js CoderHouse</title>
+    </head>
+    <body>
+        <div id="App" class="msjWelcome">
+            <div class="internalmsj" v-text="message"></div>
+            <hr>
+            <div>{{ numeroA }} + {{ numeroB }} = {{ calculoMatematico() }}</div>
+            <hr>
+            <div>Usando Propiedad Computada: {{ duplicar }}</div>
+            <hr>
+        </div>
+    </body>
 </html>

@@ -11,7 +11,6 @@ var app = new Vue({
         }
 
     },
-
     computed:{
         duplicar(){
             return this.numeroA * 2
