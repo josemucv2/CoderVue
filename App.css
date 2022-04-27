@@ -12,6 +12,13 @@ body {
     background-color: rgb(52, 52, 52);
     padding: 10px;
     color: yellow;
-
+}
+.contador{
+    display: flex;
+    justify-content: center;
 }
 
+.numberContador{
+    text-align: center;
+    width: 160px;
+}
